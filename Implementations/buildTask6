@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ task6subscribe.cpp derek_LED.cpp -o Task6 -lpaho-mqtt3c
+

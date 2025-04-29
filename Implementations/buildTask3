@@ -1,0 +1,4 @@
+#!/bin/bash
+config-pin p9.22 pwm
+g++ pwmrun.cpp PWM.cpp util.cpp -o Task3 -lpaho-mqtt3c
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ t1publish.cpp analogIn.cpp -o Task1 -lpaho-mqtt3c
+

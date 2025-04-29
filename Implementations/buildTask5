@@ -1,0 +1,6 @@
+#!/bin/bash
+
+config-pin p9.22 gpio
+
+g++ -Wall task5subscribe.cpp GPIO.cpp -o Task5 -lpaho-mqtt3c -pthread 
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+config-pin p8.16 gpio_pu
+
+g++ -Wall task4publish.cpp GPIO.cpp -o Task4 -lpaho-mqtt3c -pthread 
+
